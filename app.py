@@ -5,7 +5,8 @@ import plotly as px
 st.header('Aplicativo do Projeto da Sprint 5')
 
 # lendo os dados
-st.write('Ainda não é um aplicativo funcional. Em construção.')car_data = pd.read_csv('vehicles.csv')
+st.write('Ainda não é um aplicativo funcional. Em construção.')
+car_data = pd.read_csv('vehicles.csv')
 hist_button = st.button('Criar histograma')  # criar um botão para histograma
 # criar um botão para dispersão
 disp_button = st.button('Criar gráfico de dispersão')
